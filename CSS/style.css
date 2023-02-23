@@ -9,6 +9,8 @@ font-family: 'Courier Prime', monospace;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: xx-large
 
 }
 
@@ -17,7 +19,38 @@ header {
 
 }
 
+#like {
+    text-align: center;
+    list-style:inside;
+}
+
+#likes{
+    text-align: center;
+    list-style:inside;
+    color:#FF00FF;
+}
+
+#hobbylist {
+    text-align: center;
+    list-style:inside;
+    color: #FF00FF
+    
+      
+}
+
+/* Photo Gallery */
+
+#gallery {
+    border: 3px white;
+    text-align: center;
+}
 
 
+#lit p::first-letter {
+    font-size:x-large;
+    float: left;
+    border: dotted 5px; color:magenta;
+    padding: 5ex;
+    margin-right: 5ex;
 
-
+}
