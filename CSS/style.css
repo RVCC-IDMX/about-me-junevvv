@@ -30,11 +30,17 @@ header {
     color:#FF00FF;
 }
 
+#hobbies {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
 #hobbylist {
     text-align: center;
     list-style:inside;
-    color: #FF00FF
-    
+    color: hsl(300, 100%, 50%)
       
 }
 
@@ -45,6 +51,10 @@ header {
     text-align: center;
 }
 
+#gallery img {
+    max-width:100%;
+}
+
 
 #lit p::first-letter {
     font-size:x-large;
@@ -52,5 +62,48 @@ header {
     border: dotted 5px; color:magenta;
     padding: 5ex;
     margin-right: 5ex;
-
 }
+
+#lit {
+    margin:3em;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:768px) {
+
+    #gallery figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #gallery figcaption {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    #lit div {
+        columns:30rem;
+        max-width:100%;
+        text-align:justify;
+    
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #gallery {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        align:center;
+
+    }
+    #gallery hr {
+        display:none;
+    }
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+    #gallery figure {
+        display:block;
+    }
+}
+   
