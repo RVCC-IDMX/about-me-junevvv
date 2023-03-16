@@ -38,7 +38,7 @@ header {
 }
 
 #hobbylist {
-    text-align: center;
+    text-align:center;
     list-style:inside;
     color: hsl(300, 100%, 50%)
       
