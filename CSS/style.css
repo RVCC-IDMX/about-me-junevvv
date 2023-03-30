@@ -111,7 +111,10 @@ header {
 
 #contact {
 
-    max-width: 400px
+    max-width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+
     
 
 }
@@ -128,6 +131,12 @@ header {
 
 #contact legend {
     border-bottom-right-radius:1ex;
+    font-size:x-large;
+    float: left;
+    border: dotted 5px; color:magenta;
+    padding: 5ex;
+    margin-right: 5ex;
+   
    
     
 }
