@@ -93,7 +93,7 @@ header {
     #gallery {
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
-        align:center;
+        box-align:center;
 
     }
     #gallery hr {
@@ -105,5 +105,23 @@ header {
     #gallery figure {
         display:block;
     }
+}
+
+/* Contact Form */
+
+#contact {
+
+    max-width: 400px
+    
+    
+}
+
+#contact fieldset {
+    border-radius:1em;
+}
+
+#contact legend {
+    border-bottom-right-radius:1ex;
+    
 }
    
