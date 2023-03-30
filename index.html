@@ -31,7 +31,7 @@
     <!-- hero section: shows profile, image, name, & location-->
     <img src="/img/avataaars.png" alt=avatar with pink hair wearing black glasses and overalls, throwing up and x eyes"
 
-    <div>
+     <div>
         <p> Hey, it's June :) </p>
         <p> I'm from New Jersey</p>
 
@@ -129,7 +129,67 @@
 <section id="contact">
 
     <h2> Contact Me </h2>
-    
+
+
+    <form method="post">
+            
+        <fieldset>
+            <legend>Contact Form</legend>
+
+                <label for="name">Your Name:</label>
+                <input id="name" name="name" type="text" required>
+
+                <br>
+
+                <label for="email">Your Email:</label>
+                <input id="email" name="email" type="email" required>
+
+                <br>
+                
+                <label for="phone">Your Phone:</label>
+                <input id="phone" name="phone" type="tel">
+
+                <br>
+
+                <label for="type">Phone Type:</label>
+                <select id="type" name="type">
+                    <option value="home">home</option>
+                    <option value="mobile">mobile</option>
+                    <option value="work">work</option>
+                </select>
+
+                <br>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <br>
+
+                <fieldset>
+
+                <legend>Contact Back?</legend>
+                     <input id="yes" type="radio" name="contactback" checked>
+                    <label for="yes">Contact me back</label>
+                    <input id="no" type="radio" name="contactback">
+                    <label for="no">No thanks</label>
+         
+                </fieldset>
+
+                
+                <br>
+
+
+                <input type="submit">
+
+                <button type="submit">button</button>
+
+
+
+
+        </fieldset>
+
+        </form>
+
 
 </section>
 
