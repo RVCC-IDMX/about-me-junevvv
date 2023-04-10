@@ -1,13 +1,14 @@
-body {
+
+#body {
+    background-image: url(img/qai500002.jpeg);
+    background-size: cover;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
     color: #FFFC19;
     display: table-cell;
-    vertical-align: middle;
-    background-image: url(qai50002.jpeg);
-   margin:auto;
-   margin-left:auto;
-   margin-right:auto;
-   max-width:100%;
-   font-weight:bold;
+    font-weight:bold;
     background-color: #181818;
      font-family: 'Amatic SC', cursive;
 font-family: 'Courier Prime', monospace;
