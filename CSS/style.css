@@ -1,15 +1,16 @@
 
-#body {
-    background-image: url(img/qai500002.jpeg);
-    background-size: cover;
-    margin:auto;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:100%;
+ #body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: aliceblue;
+   background-image: url(/366.gif);
+   margin:auto;
+   margin-left:auto;
+   margin-right:auto;
+   max-width:100%;
     color: #FFFC19;
     display: table-cell;
     font-weight:bold;
-    background-color: #181818;
      font-family: 'Amatic SC', cursive;
 font-family: 'Courier Prime', monospace;
 
@@ -56,6 +57,7 @@ header {
 /* Photo Gallery */
 
 #gallery {
+    background-color:black;
     border: 3px white;
     text-align: center;
 }
