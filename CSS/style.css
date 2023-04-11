@@ -26,7 +26,33 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     text-align: center;
+}
 
+#hi {
+    font-family: 'Courier New', Courier, monospace;
+    color:aquamarine;
+    
+}
+
+#p4 {
+    color:purple;
+    font-size: 50px;
+    font-kerning: 5px;
+}
+
+#bio {
+    color:#00a86b;
+    padding-top: 5rem;
+}
+
+#section1 {
+    padding-top: 5rem;
+    background-color:black;
+    border-radius: 100rem;
+    border-style: dotted;
+    border-width: 1rem;
+    border-color:cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #like {
@@ -63,6 +89,8 @@ header {
 }
 
 #gallery img {
+    border-style: double;
+    border-color: #00a86b;
     max-width:100%;
 }
 
