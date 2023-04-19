@@ -1,59 +1,41 @@
-
- header {
-    text-align: center;
-
-}
-
- body {
-    background-color: white;
-   margin:auto;
-   margin-left:auto;
-   margin-right:auto;
-   max-width:100%;
+body {
     color: #181818;
-    display: table-cell;
-    font-weight:bold;
-     font-family: 'Amatic SC', cursive;
+    background-color: #FAFAFA;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-family: 'Courier Prime', monospace;
 
 }
 
+h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Amatic SC', cursive;
+#logo {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 1rem;
+  width: 13%;
+}
+
+#subtitle {
+ text-align: center;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color:#5D3FD3;
+ font-size:xx-large;
+}
+
+#bio{
+    background-color: #DAF7A6;
+}
+
+#hr3{
+margin-bottom:2em;
+}
+
+h3{
     text-align: center;
-    font-size: xx-large
-}
-
-#hi {
-    font-family: 'Courier New', Courier, monospace;
-    color:aquamarine;
-    
-}
-
-#like {
-    text-align: center;
-    list-style:inside;
-}
-
-#likes{
-    text-align: center;
-    list-style:inside;
-    color:#FF00FF;
-}
-
-#hobbies {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-}
-
-#hobbylist {
-    text-align:center;
-    list-style:inside;
-    color: hsl(300, 100%, 50%)
-      
+    color: #FF5733;
 }
 
 /* Photo Gallery */
@@ -64,22 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #gallery img {
-    border-style: double;
-    border-color: #00a86b;
     max-width:100%;
-}
-
-
-#lit p::first-letter {
-    font-size:x-large;
-    float: left;
-    border: dotted 5px; color:magenta;
-    padding: 5ex;
-    margin-right: 5ex;
-}
-
-#lit {
-    margin:3em;
 }
 
 /* Media Queries */
@@ -99,15 +66,15 @@ h1, h2, h3, h4, h5, h6 {
         columns:30rem;
         max-width:100%;
         text-align:justify;
-    }
     
+    }
 }
 
 @media screen and (min-width:1200px) {
     #gallery {
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
-        box-align:center;
+        align:center;
 
     }
     #gallery hr {
@@ -120,51 +87,22 @@ h1, h2, h3, h4, h5, h6 {
         display:block;
     }
 }
-
-/* Contact Form */
-
-#contact {
-
-    max-width: 400px;
-    margin-left:auto;
-    margin-right:auto;
-
-    
-
-}
-
-
-#contact fieldset {
-    border-radius:1em;
-    display:grid;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:1em;
-    
-}
-
-#contact legend {
-    border-bottom-right-radius:1ex;
+   #reviews{
+    margin:5em;
+    margin-bottom:2em;
+    color:#00A36C;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:x-large;
-    float: left;
-    border: dotted 5px; color:magenta;
-    padding: 5ex;
-    margin-right: 5ex;
-   
-   
-    
-}
+   }
 
-#contactform {
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:3em;
-}
-
-
-#footer {
+   #reviewslist{
+    text-align:left;
+    list-style-type: none;
     margin:3em;
-    padding:5em;
-}
+   }
 
-   
+   #footer {
+    margin:5em;
+    color:#3F00FF;
+   }
