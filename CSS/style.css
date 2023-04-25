@@ -6,6 +6,21 @@ font-family: 'Courier Prime', monospace;
 
 }
 
+hr {
+   border: 1px solid black;
+}
+
+#banner {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width:100%;
+    border-color: black;
+    border-radius: 5rem;
+    border-style: double;
+    border-width: 5px;
+    
+}
+
 h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
