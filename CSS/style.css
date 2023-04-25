@@ -50,8 +50,9 @@ h2, h3, h4, h5, h6 {
 
 #bio{
     background-color: #DAF7A6;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200px;
     display: block center;
     margin-left: auto;
     margin-right: auto;
@@ -62,8 +63,14 @@ h2, h3, h4, h5, h6 {
 
 #h3{
     text-align: center;
-    color: #FF5733;
-    padding-bottom: 1rem;
+    color:lightskyblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-style:double;
+    border-width: 5px;
+    border-color:saddlebrown;
+    background-color: sienna;
+    border-radius: 5px;
 }
 
 /* Photo Gallery */
@@ -208,4 +215,5 @@ h2, h3, h4, h5, h6 {
    footer {
     margin:5em;
     color:#3F00FF;
+    font-family: 'Courier New', Courier, monospace;
    }
