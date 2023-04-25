@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg378"
+   inkscape:export-filename="jv.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="jv-bodoni.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview380"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.2973261"
+     inkscape:cx="425.45878"
+     inkscape:cy="228.70512"
+     inkscape:window-width="1280"
+     inkscape:window-height="456"
+     inkscape:window-x="113"
+     inkscape:window-y="132"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs375" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:174.592px;line-height:30.8445px;font-family:'Watercolour Test';-inkscape-font-specification:'Watercolour Test';letter-spacing:10.2654px;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0"
+       x="48.635544"
+       y="212.89934"
+       id="text411"><tspan
+         sodipodi:role="line"
+         id="tspan409"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.592px;font-family:'Bodoni 72 Oldstyle';-inkscape-font-specification:'Bodoni 72 Oldstyle';fill:#333333;fill-opacity:1;stroke-width:0"
+         x="48.635544"
+         y="212.89934">jv</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:123.184px;line-height:142.583px;font-family:'Bodoni Ornaments';-inkscape-font-specification:'Bodoni Ornaments';fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0"
+       x="86.86808"
+       y="136.35501"
+       id="text930"><tspan
+         sodipodi:role="line"
+         id="tspan928"
+         style="fill:#333333;fill-opacity:1;stroke-width:0"
+         x="86.86808"
+         y="136.35501">r</tspan></text>
+  </g>
+</svg>
