@@ -58,7 +58,6 @@ h2, h3, h4, h5, h6 {
     margin-right: auto;
     height: 370px;
     padding: 1rem;
-    margin-bottom: 3rem;
     border-left-style: double;
     border-left-color: #232323;
     border-left-width: 30px;
@@ -75,6 +74,7 @@ h2, h3, h4, h5, h6 {
     border-style:double;
     border-width: 5px;
     border-color:saddlebrown;
+    background-image: url("w00d.jpeg");
     background-color: sienna;
     border-radius: 5px;
 }
