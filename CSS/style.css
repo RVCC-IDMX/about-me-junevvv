@@ -56,14 +56,20 @@ h2, h3, h4, h5, h6 {
     display: block center;
     margin-left: auto;
     margin-right: auto;
-    height: 320px;
+    height: 370px;
     padding: 1rem;
     margin-bottom: 3rem;
+    border-left-style: double;
+    border-left-color: #232323;
+    border-left-width: 30px;
+    line-height: 35px;
+    
+    
 }
 
 #h3{
     text-align: center;
-    color:lightskyblue;
+    color:aliceblue;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-style:double;
