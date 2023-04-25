@@ -9,7 +9,7 @@ font-family: 'Courier Prime', monospace;
 header {
     display: block;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 hr {
@@ -17,14 +17,14 @@ hr {
 }
 
 #banner {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     max-width: 83%;
     border-color: black;
     border-radius: 1rem;
     border-style: double;
     border-width: 5px;
-    
+
 }
 
 h2, h3, h4, h5, h6 {
@@ -38,6 +38,7 @@ h2, h3, h4, h5, h6 {
   width: 4%;
   height: 4%;
   padding-bottom: 1rem;
+  min-width:32px;
 }
 
 #subtitle {
@@ -54,13 +55,15 @@ h2, h3, h4, h5, h6 {
     display: block center;
     margin-left: auto;
     margin-right: auto;
-    height: 260px;
+    height: 320px;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 #h3{
     text-align: center;
     color: #FF5733;
+    padding-bottom: 1rem;
 }
 
 /* Photo Gallery */
@@ -75,7 +78,8 @@ h2, h3, h4, h5, h6 {
     border-color: black;
     border-radius: 5rem;
     border-style: double;
-    border-width: 5px;
+    border-width: 5px; 
+
 }
 
 #gallery figcaption {
@@ -87,49 +91,6 @@ h2, h3, h4, h5, h6 {
     border-width: 5px;
 }
 
-/* Media Queries */
-
-@media screen and (min-width:768px) {
-
-    #gallery figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    #gallery figcaption {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    #lit div {
-        columns:30rem;
-        max-width:100%;
-        text-align:justify;
-    
-    }
-    .header {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    #gallery {
-        display:grid;
-        grid-template-columns:1fr 1fr 1fr;
-        align:center;
-
-    }
-    #gallery hr {
-        display:none;
-    }
-    #gallery h2 {
-        grid-column:1/-1;
-    }
-    #gallery figure {
-        display:block;
-    }
-}
 #blog {
     margin-top: 5rem;
 }
@@ -185,7 +146,53 @@ h2, h3, h4, h5, h6 {
     display: table;
     clear: both;
   }
-  
+
+/* Media Queries */
+
+@media screen and (min-width:768px) {
+
+    #gallery figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #gallery figcaption {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    #lit div {
+        columns:30rem;
+        max-width:100%;
+        text-align:justify;
+    
+    }
+    #header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #gallery {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        align:center;
+
+    }
+    #gallery hr {
+        display:none;
+    }
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+    #gallery figure {
+        display:block;
+    }
+}
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn { 
@@ -194,6 +201,10 @@ h2, h3, h4, h5, h6 {
     }
 
   }
+
+
+
+
    footer {
     margin:5em;
     color:#3F00FF;
