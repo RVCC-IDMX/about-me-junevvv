@@ -82,11 +82,7 @@ h2, h3, h4, h5, h6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#hr3 {
-  border-style: double 30px;
-  border-color: red;
+    margin-bottom: 2rem;
 }
 
 /* Photo Gallery */
@@ -94,7 +90,8 @@ h2, h3, h4, h5, h6 {
 #gallery {
     border: 3px white;
     text-align: center;
-    background-color: #00a86b;
+    background-color: #b5e7a0;
+    padding-bottom: 1rem;
 }
 
 #gallery img {
@@ -113,6 +110,7 @@ h2, h3, h4, h5, h6 {
     border-radius: 5rem;
     border-style: double;
     border-width: 5px;
+    background-color: aliceblue;
 }
 
 #blog {
