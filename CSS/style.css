@@ -90,7 +90,7 @@ h2, h3, h4, h5, h6 {
 #gallery {
     border: 3px white;
     text-align: center;
-    background-color: #b5e7a0;
+    background-color: #c5d5c5;
     padding-bottom: 1rem;
 }
 
@@ -104,13 +104,21 @@ h2, h3, h4, h5, h6 {
 }
 
 #gallery figcaption {
-    padding: 1rem;
+    padding: 1rem 1rem;
     max-width:100%;
     border-color: black;
     border-radius: 5rem;
     border-style: double;
     border-width: 5px;
     background-color: aliceblue;
+    background-image: url(/img/Sunflower_Bkgrd.jpeg);
+    font-family: fantasy;
+    text-align: center;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #blog {
