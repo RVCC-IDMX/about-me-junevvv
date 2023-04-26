@@ -91,6 +91,7 @@ h2, h3, h4, h5, h6 {
     text-align: center;
     background-color: #c5d5c5;
     padding-bottom: 1rem;
+    min-width: 300p;
 }
 
 #gallery img {
@@ -118,6 +119,7 @@ h2, h3, h4, h5, h6 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    justify-content: center;
 
 }
 
@@ -222,30 +224,6 @@ h2, h3, h4, h5, h6 {
 
 /* Garden Gallery */
 
-@media screen and (min-width:768px) {
-
-    #gallery figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    #gallery figcaption {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    #lit div {
-        columns:30rem;
-        max-width:100%;
-        text-align:justify;
-    
-    }
-    #header {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
 
 @media screen and (min-width:1200px) {
 
@@ -267,31 +245,6 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Hobbies Gallery */
-
-@media screen and (min-width:768px) {
-
-  #hobbies-gallery figure {
-      display:grid;
-      grid-template-columns: 2fr 1fr;
-  }
-  #hobbies-gallery figcaption {
-      display:flex;
-      justify-content:center;
-      align-items:center;
-  }
-  #lit div {
-      columns:30rem;
-      max-width:100%;
-      text-align:justify;
-  
-  }
-  #header {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-}
 
 @media screen and (min-width:1200px) {
 
