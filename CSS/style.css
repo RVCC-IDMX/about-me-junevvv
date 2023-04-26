@@ -225,7 +225,7 @@ h2, h3, h4, h5, h6 {
 
 /* Garden Gallery */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:720px) {
 
     #gallery figure {
         display:grid;
