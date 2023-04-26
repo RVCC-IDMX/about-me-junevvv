@@ -57,14 +57,11 @@ h2, h3, h4, h5, h6 {
     display: block center;
     margin-left: auto;
     margin-right: auto;
-    
+
     padding: 1rem;
     border-left-style: double;
     border-left-color: #232323;
     border-left-width: 30px;
-    line-height: 35px;
-    
-    
 }
 
 #h3{
