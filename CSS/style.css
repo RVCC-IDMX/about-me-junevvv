@@ -62,6 +62,7 @@ h2, h3, h4, h5, h6 {
     border-left-style: double;
     border-left-color: #232323;
     border-left-width: 30px;
+    max-width: 550px;
 }
 
 #h3{
