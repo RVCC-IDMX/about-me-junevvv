@@ -285,6 +285,15 @@ h2, h3, h4, h5, h6 {
 
   }
 
+
+  /* -------- Contact Form -------- */
+
+     #formelements {
+        display:grid
+     }
+
+
+
    footer {
     margin:5em;
     color:#3F00FF;
