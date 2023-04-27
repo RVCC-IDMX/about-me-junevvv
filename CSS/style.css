@@ -138,12 +138,15 @@ h2, h3, h4, h5, h6 {
 #hobbies-gallery {
   border: 3px white;
   text-align: center;
-
+  padding-top: 2rem;
   padding-bottom: 1rem;
   max-width: 600px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(/img/hobby-gallery-background.GIF);
+  background-color: aliceblue;
+  border
 }
 
 #hobbies-gallery img {
