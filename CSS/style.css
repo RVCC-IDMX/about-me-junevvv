@@ -78,7 +78,7 @@ h2, h3, h4, h5, h6 {
     text-align: center;
     color:gold;
     -webkit-text-stroke: saddlebrown;
-    -webkit-text-stroke-width: 0.45px;
+    -webkit-text-stroke-width: 0.35px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-style:double;
@@ -133,6 +133,7 @@ h2, h3, h4, h5, h6 {
 
 }
 
+
 /* Hobbies Gallery */
 
 #hobbies-gallery {
@@ -146,7 +147,7 @@ h2, h3, h4, h5, h6 {
   margin-right: auto;
   background-image: url(/img/hobby-gallery-background.GIF);
   background-color: aliceblue;
-  border
+
 }
 
 #hobbies-gallery img {
