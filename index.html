@@ -213,7 +213,7 @@
 
     <h2> Contact Me: </h2>
 
-    <form id="contactform" name="contactform">
+    <form id="contactform" name="contactform" method="post" data-netlify="true">
 
         <fieldset>
             <legend>Contact Form</legend>
@@ -248,14 +248,14 @@
                   <legend> Would you like a reply? </legend>
                   <ul>
                     <li> 
-                      <input type="radio" id="message-yes" name="reply" checked>
+                      <input type="radio" id="message-yes" name="reply" value="yes" checked>
                       <label for="message-yes">
                       Yes 
                     </label>
                     </li>
 
                     <li> 
-                      <input type="radio" id="message-no" name="reply">
+                      <input type="radio" id="message-no" name="reply" value="no">
                       <label for="message-no">
                       No 
                     </label>
